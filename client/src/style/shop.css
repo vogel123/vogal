@@ -1,0 +1,31 @@
+/* custom-styles.css */
+.product-table {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0px;
+  }
+  
+  .product-table th {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .product-table td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .product-images {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
+  .publish-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

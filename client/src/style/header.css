@@ -1,0 +1,108 @@
+.main_header {
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.nav-col {
+    flex: 1 1;
+    padding: 0 20px;
+}
+
+.logo-col img {
+    max-width: 80px;
+}
+
+.logo-col,
+.profile-col {
+    max-width: 150px;
+    width: 100%;
+}
+
+.header-icon {
+    height: 40px;
+    width: 40px;
+    padding: 12px;
+}
+
+.nav-link-list li {
+    padding: 0px 15px;
+}
+
+.nav-link-list li a {
+    color: #111111;
+    padding: 25px 0;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.product-count {
+    background-color: #111111;
+    color: #ffffff;
+    position: absolute;
+    padding: 4px;
+    display: flex;
+    line-height: 0.7;
+    border-radius: 50px;
+    text-align: center;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+}
+
+.main_header header {
+    position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-col {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        top: -100vh;
+        left: 0;
+        z-index: 99999;
+        padding: 50px 20px;
+        transition: 0.3s all;
+    }
+
+    .nav-col.nav-open {
+        top: 0;
+    }
+
+    .nav-link-list li {
+        padding: 5px 0;
+    }
+
+    .nav-link-list li a {
+        padding: 5px 0;
+    }
+
+    .main_header {
+        padding: 15px 0;
+    }
+
+    .header-icon {
+        height: 30px;
+        width: 30px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .logo-col {
+        max-width: 80px;
+    }
+
+
+}
